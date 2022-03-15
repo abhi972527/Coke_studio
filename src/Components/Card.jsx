@@ -12,7 +12,7 @@ const Card = (props) => {
                     <div className="card__info">
                         <span className="card__category">{props.song}</span>
                         <h3 className="card__title">{props.artist}</h3>
-                        <a href={props.link} target="_blank" >
+                        <a href={props.link} >
                             <button>Play</button>
                         </a>
                     </div>
